@@ -1,0 +1,55 @@
+.layui-nav {
+	position: relative;
+	float: right;
+	background: #FFFFFF;
+}
+.layui-nav .layui-this:after, .layui-nav-bar{
+	background: gray;
+}
+#main {
+	width: 70%;
+	position: relative;
+	margin-top: 3%;
+	left: 13%;
+}
+#navname {
+	position: absolute;
+	left: 10%;
+	top: 3%;
+	height: auto;
+	font-size: 1.25rem;
+}
+#main * {
+	padding: 1%;
+}
+#myname {
+	font-weight: bold;
+}
+img {
+	width: 100%;
+	height: 100%;
+}
+#intro{
+	/* position: absolute; */
+	/* left: 25%; */
+	/* top: 40%; */
+	font-size: 16px;
+}
+.layui-nav{
+	overflow: auto;
+}
+/* 响应式布局 - 屏幕尺寸小于 800px 时，两列布局改为上下布局 */
+/* @media screen and (max-width: 800px) {
+  body {   
+    width: 100%;
+    padding: 0;
+  }
+} */
+ 
+/* 响应式布局 -屏幕尺寸小于 400px 时，导航等布局改为上下布局 */
+/* @media screen and (max-width: 400px) {
+  body {
+    float: none;
+    width: 100%;
+  }
+} */
