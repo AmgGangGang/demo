@@ -1,44 +1,48 @@
-#main {
+.main {
 	width: 70%;
 	position: relative;
 	margin-top: 3%;
 	left: 13%;
-	margin-top:160px
 }
 #navname {
-	position: absolute;
-	left: 10%;
-	top: 3%;
 	height: auto;
 	font-size: 1.25rem;
-}
-#main * {
-	/* padding: 1%; */
-}
-#myname {
-	font-weight: bold;
 }
 img {
 	width: 100%;
 	height: 100%;
 }
-#intro{
-	/* position: absolute; */
-	/* left: 25%; */
-	/* top: 40%; */
-	font-size: 16px;
+
+@media (min-width: 768px) {
+    #intro{
+		padding-left: 1.3rem;
+	}
+  }
+p{
+	font-family: 'Roboto',sans-serif;
+	font-size: 1.1rem;
+	margin-bottom: 1rem;
 }
-.layui-nav{
-	overflow: auto;
+
+.post-title {
+	font-size: 2.5rem;
 }
-iframe{vertical-align: middle;}
-::-webkit-scrollbar{
-   display: none;
+
+article{
+	font-family: 'Roboto',sans-serif;
+	
 }
-/*修改的代码*/
-#one{
-	position:fixed;
-	top:0px;
-	width:100%;
-	height:500px;
+article p strong{
+	font-size: 1.2rem;
 }
+
+li {
+	list-style: disc;
+	margin-bottom: 1rem;
+	font-size: 1rem;
+}
+ul{
+	padding-left: 2.3rem;
+}
+
+

@@ -1,0 +1,35 @@
+.layui-nav {
+    float: right;
+    background: #ffffff;
+    margin-right: 2rem;
+  }
+  .layui-nav .layui-this:after,
+  .layui-nav-bar {
+    background: gray;
+  }
+  @media (max-width: 768px) {
+    #minNav {
+      display: inline;
+    }
+    #maxNav {
+      display: none;
+    }
+  }
+  @media (min-width: 768px) {
+    #minNav {
+      display: none;
+    }
+    #maxNav {
+      display: inline;
+    }
+  }
+  @media (min-width: 992px) {
+  }
+  @media (max-width: 1200px) {
+  }
+  #navname {
+    line-height: 3.75rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
